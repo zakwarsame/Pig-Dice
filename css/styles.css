@@ -1,0 +1,46 @@
+body {
+  background-image: url(../img/dice.jpg);
+  background-size: cover;
+}
+
+.jumbotron {
+  background: lightblue;
+  color: black;
+}
+
+#well1 {
+  height: 52vh;
+  min-height: 20px;
+  padding: 19px;
+  padding-top: 100px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.box1{
+  border-style: solid;
+	border-color: black;
+	margin-top: 7%;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.pl1{
+  opacity: 0.5;
+  border-color: grey;
+}
+.btns{
+  margin-top:18%;
+  padding-left:50px;
+}
+.gameMode{
+  display: none;
+}
+#die-roll{
+  display: none;
+}
+#total1{
+  display: none;
+}

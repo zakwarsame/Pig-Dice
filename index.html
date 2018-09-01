@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pig Dice</title>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h1>Welcome To Pig Dice!</h1>
+      </div>
+      <div class="hide1">
+    <div class="row">
+      <div class="col-md-3 well">
+          <h2>Rules</h2><br>
+          <h4>1. The first Player to reach 100 wins!</h4>
+          <br><h4>2. One standard dice is rolled. If it doesn't shows a 1, the sum is added to the turn total.</h4>
+          <br><h4>3. If a 1 is rolled, the player’s entire score is lost, and the turn ends.</h4>
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-4">
+        <div id="well1">
+        <form>
+          <div class="form-group">
+            <label for="player1name">Player 1:</label>
+            <input class="form-control" id="player1name" type="text" required>
+          </div>
+          <div class="form-group">
+            <label for="player2name">Player 2:</label>
+            <input class="form-control" id="player2name" type="text" required>
+          </div>
+          <div class="form-group">
+            <input type="submit" id="spaceMe"class="btn btn-primary"value="Let's Play">
+          </div>
+          </div>
+      </form>
+        </div>
+      </div>
+    </div>
+    <div class="gameMode well">
+      <div class="container">
+        <div class="row">
+          <h3 id="player1turn"></h3>
+          <h3 id="player2turn"></h3></div>
+          <div class="col-md-5 box1 well" id="pl1">
+            <h3> Player 1</h3>
+            <h3><span id="p1Name"></span>'s total Score: <span id="p1TotalScore"></span></h3>
+          </div>
+            <div class="col-md-2 btns">
+              <input type="submit" id="roll"class="btn btn-primary"value="Roll">
+              <input type="submit" id="hold"class="btn btn-primary"value="Hold">
+
+              <h4>You Rolled <span id="die-roll"></span></h4>
+            </div>
+
+            <div class="col-md-5 box1 well" id="pl2">
+              <h3> Player 2</h3>
+              <h3><span id="p2Name"></span>'s total Score: <span id="p2TotalScore"></span></h3>
+            </div>
+
+      </div>
+      <div id="playersTrn">
+        <h3>Score: <span id="result"></span></h3>
+        <h4><span id="total1"></span></h4>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
