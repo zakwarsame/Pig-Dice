@@ -1,7 +1,5 @@
 # Pig Dice
 
-## A Game By Abdulrahman Mohamed
-
 ### Rules
 > 1. The first Player to reach 100 wins!
 >2. One standard dice are rolled. If it doesn't shows a 1, the sum is added to the turn total.
@@ -17,10 +15,6 @@ A working browser.
 >BOOTSTRAP
 >JAVASCRIPT
 
-### Support and contact details
-
-https://github.com/Alchemy17?tab=repositories
-
 ### License
 
-MIT Copyright (c) 2018# pigdice
+MIT Copyright (c) 2018
