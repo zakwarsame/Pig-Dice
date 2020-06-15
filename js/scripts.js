@@ -21,7 +21,7 @@ function issaOne() {
   if ($("#player1turn").is(":visible")) {
     playersturn = [0];
     $("#total1").text(playersturn);
-    alert("Oops! Issa One");
+    alert("Oops! You got a 1.");
     $("#player1turn").hide();
     $("#player2turn").text(p2.playername + "'s turn").show();
     p1.score = 0;
@@ -32,7 +32,7 @@ function issaOne() {
   } else if ($("#player2turn").is(":visible")) {
     playersturn = [0];
     $("#total1").text(playersturn);
-    alert("Oops! Issa One");
+    alert("Oops! You got a 1.");
     $("#player2turn").hide();
     $("#player1turn").text(p1.playername + "'s turn").show();
     p2.score = 0;
